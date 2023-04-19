@@ -23,7 +23,7 @@ addon_info = {
 	"addon_summary": _("Desktop Focus"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description": _("""When NVDA starts, sets the system focus to the desktop"""),
+	"addon_description": _("""Automatically sets the system focus to the desktop when NVDA starts"""),
 	# version
 	"addon_version": "2023.04.18",
 	# Author(s)

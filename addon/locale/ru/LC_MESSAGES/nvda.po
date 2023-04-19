@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DesktopFocus\n"
-"POT-Creation-Date: 2021-06-05 04:07+0800\n"
-"PO-Revision-Date: 2021-06-05 04:09+0800\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2023-04-20 02:32+0800\n"
+"PO-Revision-Date: 2023-04-20 02:35+0800\n"
 "Last-Translator: Kvark <kvark128@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -15,6 +16,20 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\\..\\DesktopFocus\n"
 
-#: ..\..\..\..\DesktopFocus/globalPlugins/DesktopFocus.py:29
+#: addon\globalPlugins\DesktopFocus.py:49
 msgid "Sets system focus to the desktop"
 msgstr "Устанавливает системный фокус на рабочий стол"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Desktop Focus"
+msgstr "Desktop Focus"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Automatically sets the system focus to the desktop when NVDA starts"
+msgstr ""
+"Автоматически устанавливает системный фокус на рабочий стол при запуске NVDA"
